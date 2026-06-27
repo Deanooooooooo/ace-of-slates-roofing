@@ -29,14 +29,22 @@
   - portrait image uses portrait-width card,
   - small roof-structure image is a support card and not stretched into hero.
 
-## Pending QA
+## QA Result
 
-- `npm run build`
-- `npm run build:github`
-- forbidden phrase scan
-- one H1 / one form / one iframe
-- image dimension check
-- desktop/mobile screenshots
-- gallery movement measurement and crop inspection
-- deploy to GitHub Pages with `.nojekyll`
-- live CSS/hero/HTML checks
+- `npm run build` - PASS
+- `npm run build:github` - PASS
+- `.nojekyll` included in `gh-pages` export - PASS
+- Forbidden phrase/template scan - PASS
+- One H1 / one primary form / one map iframe - PASS
+- Verified `mailto:theaceofslates@gmail.com` route - PASS
+- Image dimension check - PASS
+- Desktop hero/form screenshot - PASS
+- Mobile hero/form screenshot - PASS
+- Gallery screenshot and crop inspection - PASS
+- Gallery movement measured locally: approximately `909px` - PASS
+- GitHub Pages build status: `built` - PASS
+- Live HTML 200 and contains fresh Ace of Slates markers - PASS
+- Live CSS 200 - PASS
+- Live hero image 200 - PASS
+- Live browser check: one H1, one form, one iframe, mailto present - PASS
+- Live gallery movement measured: approximately `910px` - PASS
