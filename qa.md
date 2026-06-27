@@ -7,6 +7,7 @@
   - `0161 768 2003` from official website.
   - `theaceofslates@gmail.com` from official website.
   - `07760 516595` from Yell.
+- Exact map address supplied by Dean: `9 Brownson Close, Hyde, United Kingdom, SK14 2AE`.
 - Public services verified from official website and Yell:
   - roof installations,
   - pitched and flat roofs,

@@ -12,6 +12,7 @@
 - Official website phone: `0161 768 2003`
 - Yell phone: `07760 516595`
 - Official site service area: South Manchester, the High Peak, wider North West.
+- Dean-provided exact map address: `9 Brownson Close, Hyde, United Kingdom, SK14 2AE`.
 - Official site legal footer: `THE ACE OF SLATES ROOFING CONTRACTORS (NORTHWEST) LTD`, company number `16452515`.
 - Note: Facebook/Yell page names include the older `Ltd` display name. Public site uses current trading style and the current legal footer from the official site.
 

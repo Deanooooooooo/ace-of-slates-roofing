@@ -34,11 +34,12 @@ const phoneHref = "tel:+441617682003";
 const mobileDisplay = "07760 516595";
 const mobileHref = "tel:+447760516595";
 const email = "theaceofslates@gmail.com";
+const address = "9 Brownson Close, Hyde, United Kingdom, SK14 2AE";
 const facebookUrl = "https://www.facebook.com/people/The-Ace-of-Slates-Roofing-Contractors-Ltd/100083373547225/";
 const sourceSite = "https://www.aceofslatesroofingcontractors.co.uk/";
 const yellUrl = "https://www.yell.com/biz/the-ace-of-slates-roofing-contractors-ltd-hyde-901775141/";
 const serviceArea = "South Manchester, Hyde & the High Peak";
-const mapsQuery = encodeURIComponent(`${businessName} Hyde roofers`);
+const mapsQuery = encodeURIComponent(`${businessName} ${address}`);
 const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
 const mapEmbedUrl = `https://maps.google.com/maps?q=${mapsQuery}&z=10&output=embed`;
 
@@ -248,6 +249,13 @@ export default function Page() {
     url: "https://deanooooooooo.github.io/ace-of-slates-roofing/",
     sameAs: [sourceSite, facebookUrl, yellUrl],
     openingHours: "Mo-Su 00:00-23:59",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "9 Brownson Close",
+      addressLocality: "Hyde",
+      postalCode: "SK14 2AE",
+      addressCountry: "GB",
+    },
     description:
       "Roofing contractor serving South Manchester, Hyde, the High Peak and the North West with new roofs, slate roofing, flat roofs, repairs, leadwork and chimney restoration.",
   };
@@ -449,7 +457,7 @@ export default function Page() {
             <div className="mt-8 grid gap-4">
               <a href={phoneHref} className="flex items-center gap-4 rounded-xl bg-[#16201c] p-4 text-white transition hover:bg-[#2d3a33]"><Phone className="text-amber-200" /> <span className="font-black">{phoneDisplay}</span></a>
               <a href={`mailto:${email}`} className="flex items-center gap-4 rounded-xl bg-[#f6f2ea] p-4 transition hover:bg-amber-100"><Mail className="text-amber-700" /> <span className="font-black">{email}</span></a>
-              <a href={mapsUrl} target="_blank" rel="noreferrer" className="flex items-center gap-4 rounded-xl bg-[#f6f2ea] p-4 transition hover:bg-amber-100"><MapPin className="text-amber-700" /> <span className="font-black">{serviceArea}</span></a>
+              <a href={mapsUrl} target="_blank" rel="noreferrer" className="flex items-center gap-4 rounded-xl bg-[#f6f2ea] p-4 transition hover:bg-amber-100"><MapPin className="text-amber-700" /> <span className="font-black">{address}</span></a>
             </div>
             <p className="mt-7 flex items-center gap-2 text-base font-bold text-[#53605a]"><Clock3 size={20} /> Public listings show 24/7 opening.</p>
           </div>
