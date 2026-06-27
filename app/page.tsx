@@ -39,7 +39,7 @@ const facebookUrl = "https://www.facebook.com/people/The-Ace-of-Slates-Roofing-C
 const sourceSite = "https://www.aceofslatesroofingcontractors.co.uk/";
 const yellUrl = "https://www.yell.com/biz/the-ace-of-slates-roofing-contractors-ltd-hyde-901775141/";
 const serviceArea = "South Manchester, Hyde & the High Peak";
-const mapsQuery = encodeURIComponent(`${businessName} ${address}`);
+const mapsQuery = encodeURIComponent(address);
 const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
 const mapEmbedUrl = `https://maps.google.com/maps?q=${mapsQuery}&z=10&output=embed`;
 
